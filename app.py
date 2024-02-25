@@ -30,7 +30,8 @@ import logging
 import gradio as gr
 from transformers import pipeline
 
-# Apply the Gemini API Key: AIzaSyDG3BtpnqeyiaB63HqL658ahETgF65ittQ
+# Apply the Gemini API Key: 
+
 api_key = getpass.getpass("Please enter your Google API Key:")
 os.environ["GOOGLE_API_KEY"] = api_key
 
